@@ -1,21 +1,9 @@
-div p {
-  color: red;
-}
-div > p {
-  font-size: 40px;
-}
-
-p + div {
-  background-color: green;
-}
-
-span + p {
-  color: black;
-}
-
-[title="hello"]:hover {
-  color: blue;
-
-  background-color: red;
-  display: block;
+.box {
+  height: 100px;
+  padding: 200px;
+  border: 5px solid black;
+  background-color: lightgreen;
+  box-sizing: content-box; /* change to border-box to see difference */
+  background-color: brown;
+  border: 2px solid black;
 }
