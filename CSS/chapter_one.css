@@ -5,5 +5,5 @@
   background-color: lightgreen;
   box-sizing: content-box; /* change to border-box to see difference */
   background-color: brown;
-  border: 2px solid black;
+  border: 2px solid white;
 }

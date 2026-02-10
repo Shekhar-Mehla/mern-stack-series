@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/register" method="post">
+  <label>Name:</label><br>
+  <input type="text" name="name" placeholder="Enter your name" required><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+  <label>Gender:</label><br>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female<br><br>
+
+  <label>Hobbies:</label><br>
+  <input type="checkbox" name="hobby" value="reading"> Reading
+  <input type="checkbox" name="hobby" value="coding"> Coding
+  <input type="checkbox" name="hobby" value="gaming"> Gaming<br><br>
+
+  <label>Country:</label><br>
+  <select name="country">
+    <option value="aus">Australia</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+  </select><br><br>
+
+  <label>Message:</label><br>
+  <textarea name="message" rows="4" cols="30" placeholder="Write your message"></textarea><br><br>
+
+  <input type="submit" value="Register">
+  <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>
